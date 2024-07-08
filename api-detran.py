@@ -5,7 +5,7 @@ st.set_page_config(layout="wide")
 
 
 def buscar_dados():
-    request = requests.get("https://pcsdetran.rs.gov.br/")
+    request = requests.get("https://example")
     todos = json.loads(request.content)
     todos
     # print(todos)
